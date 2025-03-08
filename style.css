@@ -7,11 +7,50 @@ body {
     font-family: Verdana, sans-serif;
   }
 
+  /* HEADER */
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #e1d0bc;
+    background-color: #9b9b84;
     color: white;
+}
+
+.header img {
+    height: 5vh;
+    width: auto;
+}
+
+.header-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e1d0bc;
+}
+
+.navbar ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 30vh;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
 }
