@@ -62,7 +62,7 @@ body {
     padding: 5%;
     flex: 1;
     flex-wrap: wrap;
-    gap: 10vh;
+    gap: 2vh;
     justify-content: space-between;
 }
 
@@ -72,9 +72,18 @@ body {
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 1%;
+    max-height: 30vh;
 }
 
 .painting img {
     width: 20vh;
     height: auto;
+}
+
+.painting span {
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
