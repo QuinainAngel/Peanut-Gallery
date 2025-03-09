@@ -36,15 +36,15 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #e1d0bc;
+    padding: 0 5%;
 }
 
 .navbar ul {
     display: flex;
     width: 100%;
-    gap: 5%;
+    padding: 0;
     justify-content: space-between;
     list-style: none;
-    padding: 0 30vh;
 }
 
 .navbar a {
@@ -84,6 +84,9 @@ body {
 .painting img {
     height: 80%;
     width:auto;
+    border: 1%;
+    border-style: dashed;
+    border-color: #656d4f;
 }
 
 .painting span {
@@ -102,7 +105,11 @@ body {
     align-items: center;
     padding: 2vh;
     background-color: #9b9b84;
+}
+
+.footer span {
     color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* Dynamic adjustments for phone users */
