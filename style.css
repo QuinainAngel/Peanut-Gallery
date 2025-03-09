@@ -68,21 +68,17 @@ body {
 
 .painting {
     display: flex;
-    flex: 1 1 calc(20% - 10px);
+    flex: 1 1 calc(25% - 2vh);
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
     border: 1px solid #ccc;
     padding: 0 1%;
-    max-height: 35vh;
-    max-width: calc(25% - 10px);
 }
 
 .painting img {
     height: 80%;
     width:auto;
-    max-width: 80%;
-    height: auto;
 }
 
 .painting span {
@@ -109,5 +105,6 @@ body {
         text-align: left;
         margin-top: 0;
         max-width: 55%;
+        max-height: 100%
     }
 }
