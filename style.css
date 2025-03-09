@@ -94,6 +94,16 @@ body {
     text-overflow: ellipsis;
 }
 
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh;
+    background-color: #9b9b84;
+    color: white;
+}
+
 @media (max-width: 768px) {
     .painting {
         flex: 1 1 100%;
