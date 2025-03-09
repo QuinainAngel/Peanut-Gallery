@@ -59,21 +59,23 @@ body {
 /* GALLERY (MAIN BODY) */
 .gallery {
     display:flex;
-    padding: 5%;
+    padding: 2%;
     flex: 1;
     flex-wrap: wrap;
-    gap: 2vh;
     justify-content: space-between;
+    background-color: #EEEBE5;
 }
 
 .painting {
     display: flex;
-    flex: 1 1 calc(25% - 2vh);
+    flex: 1 1 calc(25% - 2%);
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
     border: 1px solid #ccc;
-    padding: 0 1%;
+    margin: 1%;
+    padding: 1%;
+    gap: 3%;
 }
 
 .painting img {
@@ -83,6 +85,7 @@ body {
 
 .painting span {
     max-width: 100%;
+    max-height: 20%;
     text-align: center;
     overflow: hidden;
     white-space: normal;
@@ -98,6 +101,7 @@ body {
 
     .painting img {
         width: 40%;
+        height: auto;
         margin-right: 2%;
     }
 
